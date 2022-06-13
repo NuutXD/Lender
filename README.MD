@@ -2,6 +2,8 @@
 
 Lender is a gear-loan application made by [Viljar Pettersen](https://github.com/NuutXD) for a school project!
 
+![my badge](https://badgen.net/github/release/NuutXD/Lender)
+
 ## Installation ✔️
 
 - Make the "Halvårs" folder the root folder of your web host since this is where the index.php file is.
