@@ -41,7 +41,7 @@ while ($row = mysqli_fetch_array($sql)) {
 
 <body>
 
-    <?php include('app/nav.php') ?>
+    <?php include('app/nav.html') ?>
 
     <section>
         <h1>

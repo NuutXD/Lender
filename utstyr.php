@@ -41,7 +41,7 @@ while ($row = mysqli_fetch_array($getElever)) {
 <body>
 
 
-    <?php include('app/nav.php') ?>
+    <?php include('app/nav.html') ?>
 
     <section class="equip">
 
