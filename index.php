@@ -49,7 +49,7 @@ while ($row = mysqli_fetch_array($sql)) {
         </div>
     </section>
 
-    <?php include('app/footer.php') ?>
+    <?php include('app/footer.html') ?>
 
 </body>
 

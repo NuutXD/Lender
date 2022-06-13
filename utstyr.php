@@ -70,7 +70,7 @@ while ($row = mysqli_fetch_array($getElever)) {
         </form>
     </section>
 
-    <?php include('app/footer.php') ?>
+    <?php include('app/footer.html') ?>
 
 </body>
 

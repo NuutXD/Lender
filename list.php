@@ -101,7 +101,7 @@ while ($row = mysqli_fetch_array($sql)) {
             </tbody>
         </table>
     </section>
-    <?php include('app/footer.php') ?>
+    <?php include('app/footer.html') ?>
 
 
 </body>
