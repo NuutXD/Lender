@@ -1,12 +1,12 @@
 <?php
 // App
-$APP_NAME = "lender";
+$APP_NAME = "app-name";
 $FAVICON = "favicon.ico";
 
 // Database MySQL
-$DB_HOST = "localhost";
-$DB_USER = "root";
-$DB_PASS = "";
-$DB = "utstyr";
+$DB_HOST = "db-host";
+$DB_USER = "db-user";
+$DB_PASS = "db-password";
+$DB = "db";
 
 $date = date('y-m-d');
