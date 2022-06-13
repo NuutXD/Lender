@@ -3,4 +3,3 @@
 * linguist-vendored
 *.php linguist-vendored=false
 *.js linguist-vendored=false
-*.scss linguist-vendored=true
