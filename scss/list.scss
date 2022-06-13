@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+$bg: #111;
+$fg: #1b1b1b;
+$content: #333;
+$theme: #08f;
+$tindertop: #FD297B;
+$tinderbot: #FF655B;
+
+.list {
+    padding-left:50px;
+    padding-right:50px;
+}
+
+table {
+    width:100%;
+    color:white;
+    background-color:$content;
+    border-collapse: collapse;
+    border-radius: 25px;
+    padding:25px;
+    margin-top:25px;
+
+    tbody {
+        tr {
+            background:$content;
+            &:nth-child(2n) {
+                background-color:#444;
+                
+            }
+            &:hover {
+                background-color:#555;
+            }
+        }
+    }
+    
+
+    th,td {
+        padding:10px;
+
+    }
+
+    th {
+        padding-top:15px;
+        border-bottom: solid 3px $tindertop;
+    }
+
+}
+
+@media (max-width: 600px) {
+    table {
+        padding:15px;
+
+        th,td {
+            padding:5px;
+        }
+    }
+}
+
+@media (max-width: 550px) {
+
+    .list {
+        padding-left:10px;
+        padding-right:10px;
+        padding-top:10px;
+    }
+
+    table {
+        padding:15px;
+        margin-top: 0px;
+
+        th,td {
+            padding:5px;
+        }
+    }
+}
+
+@media (max-width: 500px) {
+
+    .list {
+        padding-left:0px;
+        padding-right:0px;
+        padding-top:0px;
+    }
+
+    table {
+        padding:15px;
+        margin-top: 0px;
+        border-radius: 0;
+
+        th,td {
+            padding:5px;
+        }
+    }
+}

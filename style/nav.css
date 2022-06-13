@@ -1,0 +1,211 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+.nav {
+  height: 100px;
+  width: 100vw;
+  position: fixed;
+  left: 0;
+  top: 0;
+  background: #1b1b1b;
+  z-index: 99999;
+}
+
+.nav .content {
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 100px;
+  position: relative;
+}
+
+.nav .content img {
+  height: 70%;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.nav .content .headers {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 600px;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.nav .content .headers .navlinks {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.nav .content #kategorier {
+  background: #1b1b1b;
+  position: absolute;
+  right: 0;
+  top: 100px;
+  width: 150px;
+  padding: 10px;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+.nav .content #kategorier a {
+  text-decoration: none;
+  color: white;
+  display: block;
+  margin-bottom: 10px;
+  margin-left: 4px;
+}
+
+.phonenav {
+  height: 120px;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  background: #1b1b1b;
+  z-index: 999999;
+  display: none;
+  -webkit-box-shadow: 0px -3px 6px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px -3px 6px rgba(0, 0, 0, 0.2);
+}
+
+.phonenav .headers {
+  margin: 0 auto;
+  width: 250px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.phonenav .headers a {
+  text-decoration: none;
+  text-align: center;
+}
+
+.phonenav .headers a i {
+  color: #1b1b1b;
+  margin: 0 auto;
+  margin-top: 20px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#FD297B), to(#FF655B));
+  background: linear-gradient(#FD297B, #FF655B);
+  font-size: 36px;
+  height: 60px;
+  width: 60px;
+  border-radius: 100px;
+  text-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.phonenav .headers a .fa-truck {
+  font-size: 26px;
+  height: 50px;
+  width: 50px;
+  margin-top: 25px;
+}
+
+.phonenav .headers a .fa-th-list {
+  font-size: 26px;
+  height: 50px;
+  width: 50px;
+  margin-top: 25px;
+}
+
+.phonenav .headers a p {
+  color: white;
+  margin: 0;
+  font-size: 20px;
+}
+
+.phonenav .kategori {
+  position: absolute;
+  right: 10px;
+  top: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.phonenav .kategori i {
+  background: -webkit-gradient(linear, left top, left bottom, from(#FD297B), to(#FF655B));
+  background: linear-gradient(#FD297B, #FF655B);
+  height: 40px;
+  width: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+  border-radius: 100px;
+  -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+  text-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+  font-size: 26px;
+}
+
+.phonenav .kategori p {
+  margin: 0;
+  color: white;
+}
+
+.phonenav #kategorierphone {
+  display: none;
+  background: #1b1b1b;
+  position: absolute;
+  top: -372px;
+  -webkit-box-shadow: 0 -6px 6px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 -6px 6px rgba(0, 0, 0, 0.2);
+  right: 0;
+  width: 200px;
+  padding: 10px;
+  z-index: 99998;
+}
+
+.phonenav #kategorierphone a {
+  text-decoration: none;
+  font-size: 22px;
+  color: white;
+  display: block;
+  margin-bottom: 10px;
+  margin-left: 4px;
+}
+
+@media (max-width: 900px) {
+  .phonenav {
+    display: block;
+  }
+  .nav .content img {
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+  .nav .content .headers {
+    display: none;
+  }
+}
+/*# sourceMappingURL=nav.css.map */
